@@ -1,0 +1,7 @@
+import UsersPage from '@/features/admin/UsersPage';
+
+export const instant = false;
+
+export default function Page() {
+  return <UsersPage />;
+}
